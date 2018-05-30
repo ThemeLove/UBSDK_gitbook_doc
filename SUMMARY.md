@@ -6,5 +6,7 @@
 	* [SDK_小米](chapter2_store_access/SDK_小米.md)
 	* [SDK_OPPO](chapter2_store_access/SDK_OPPO.md)
 	* [SDK_VIVO](chapter2_store_access/SDK_VIVO.md)
+	* [SDK_联想](chapter2_store_access/SDK_联想.md)
 * [三.UBSDK广告接入](chapter3_ad_access.md)
 	* [AD_VIVO](chapter3_ad_access/AD_VIVO.md)
+	* [AD_联想](chapter3_ad_access/AD_Lenovo.md)
