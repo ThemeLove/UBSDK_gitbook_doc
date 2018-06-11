@@ -1,5 +1,5 @@
-##VIVO渠道接入流程
-	1.注册VIVO账号  
+##Lenovo广告接入流程
+	1.注册账号  
 [开放平台](https://developer.vivo.com.cn/)  
 	2.在管理后台创建游戏，注意包名以.vivo结尾，获取appID、cp-ID、appKey参数
 	
