@@ -1,6 +1,5 @@
 ##Lenovo广告接入流程
-	1.注册账号  
-[开放平台](http://open.lenovo.com/developer/lenovoReg.jspx)  
+	1.注册账号 [联想开放平台](http://open.lenovo.com/developer/lenovoReg.jspx)  
 	2.创建应用，获取OPENAPPID,OPPOAPPID在单机sdk和广告sdk中公用一个  
 	3.开发者后台----->联想广告平台，创建广告位参数
 
