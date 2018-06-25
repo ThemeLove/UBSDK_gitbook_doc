@@ -16,7 +16,7 @@
 		app_key=998
 		app_channelid=1
 
-##游戏参数：
+##游戏参数：(碰碰球)
 	1.广告id
 		bannerID:2050839
 		interstitialID:2050840
