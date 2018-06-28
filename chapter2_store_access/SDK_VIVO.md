@@ -22,7 +22,7 @@
 	6.商品价格需要精确到小数点后两位，单位为元，如商品价格为6元，则要传"6.00",传"6"或者"6.0"会报错
 	7.vivo测试的时候包名必须与vivo后台配置的包名一致，否则支付会提示验签失败
 	8.vivo要去游戏启动页必须有版号，软著， 文网游备字说明，游戏icon最好为方形直角，不能有白边。
-
+	9.vivo接入过程中，需要解压sdk资源中的so压缩包，将其全部拷贝到对应libs目录下，demo工程中默认只有armeabi一种架构，确保copy完全，避免有些机型crash.
 ##API调用
 	1.初始化：Application的onCreate方法里调用（在主进程调用）
 		VivoUnionSDK.initSdk(application,VIVOAppID, false);//debug,正式版本设为false 
