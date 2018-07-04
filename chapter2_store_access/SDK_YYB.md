@@ -1,6 +1,6 @@
 ##应用宝渠道
-
-
+	1.开放平台：http://wiki.open.qq.com/wiki/YSDK介绍
+	
 
 
 
