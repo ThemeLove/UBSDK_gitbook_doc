@@ -14,3 +14,4 @@
 	1.在开发者后台创建应用，获取appKey、appSecret参数
 	2.包名要求：.nearme.gamecenter 结尾
 	3.OPPO支付单位为分
+	4.OPPO打包时注意要设置launcher activity的方向

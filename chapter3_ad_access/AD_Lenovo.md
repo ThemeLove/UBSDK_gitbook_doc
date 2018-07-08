@@ -1,21 +1,20 @@
-##VIVO渠道接入流程
-	1.注册VIVO账号  
-[开放平台](https://developer.vivo.com.cn/)  
-	2.在管理后台创建游戏，注意包名以.vivo结尾，获取appID、cp-ID、appKey参数
+##Lenovo广告接入流程
+	1.注册账号 [联想开放平台](http://open.lenovo.com/developer/lenovoReg.jspx)  
+	2.创建应用，获取OPENAPPID,OPPOAPPID在单机sdk和广告sdk中公用一个  
+	3.开发者后台----->联想广告平台，创建广告位参数
+
+
+
+
+
+
+
+
+##Lenovo渠道接入注意事项
+	1.参数申请：联想后台创建广告位参数
+	2.包名要求：.lenovo 结尾
+	3.meta-data配置OPPOAPPID
+		    <meta-data
+            	android:name="lenovo.open.appid"
+            	android:value="1603040292217.app.ln" />
 	
-
-
-
-
-
-
-
-
-##VIVO渠道接入注意事项
-	1.在开发者后台创建应用，获取appID、cp-ID、appKey参数
-	2.包名要求：.vivo 结尾
-	3.微信直付必接，支付宝支付和收银台支付必选一种接入
-	4.微信支付支持：需要将WXPayEntryActivity.java放到 包名.wxapi的包下。
-	5.手Q支付支持：需要修改AndroidManifest.xml文件的VivoQQPayResultActivity中
-	intent-filter的data属性，属性值为"qwallet"+包名
-	6.初始化在Application的onCreate方法里进行

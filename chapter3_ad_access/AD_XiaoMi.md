@@ -1,11 +1,11 @@
-##VIVO广告接入流程
-	1.注册VIVO账号  
-[开放平台](https://developer.vivo.com.cn/)  
-	2.VIVO广告联盟需要在VIVO游戏中心或者软件商店上架后才可以创建广告位
+##XiaoMi广告接入流程
+	1.注册小米开发者账号  
+[开放平台](http：//dev.xiaomi.com)  
+	2.小米广告联盟入口在：管理控制台----->流量变现
+	3.创建广告位参数
 	
 
 ##测试参数：  
-	1.appID:b220712c388141d6a5cb944980c3f57b
 	2.广告id:
 		bannerID:646f81ed5f4f4e57a9d426905c88ffef
 		interstitialID:9edf613fe0c44bfab5fb29362117251c
@@ -16,8 +16,8 @@
 	
 
 
-##VIVO广告接入注意事项
-	1.vivo支持banner(banner)、interstitial(插屏)、splash(闪屏)、native(原生)4种广告类型  
+##xiaomi广告接入注意事项
+	1.xiaomi支持banner(banner)、interstitial(插屏)、splash(闪屏)、native(原生)4种广告类型  
 	2.native广告类型：就是根据广告id调用vivo的api获取数据显示在自己本地的view视图上，并根据返回的数据字段做不同展示形式和交互
 	3.vivo目前不支持视频广告
 	4.目前闪屏广告只支持全屏，并且为竖屏
