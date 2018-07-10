@@ -21,7 +21,7 @@
 		bannerID:2050839
 		interstitialID:2050840
 		splashID:2050841
-		rewardVideoID:2050842s
+		rewardVideoID:2050842
 	2.meta-data
 		DUOKU_AD_APPKEY:11125131
 		DUOKU_AD_PRODUCT_KEY:uDxP9u9InnhH1DzDHsGXofVT
