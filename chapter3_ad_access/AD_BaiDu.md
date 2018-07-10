@@ -42,3 +42,9 @@
 		a.DuoKuAdSDK.getInstance().setOnline(false,this);//设置是否是线上地址
 		b.DuoKuAdSDK.getInstance().setDebug(true);设置是否开启调试日志
 		c.DuoKuAdSDK.getInstance().initApplication(this);初始化
+
+	3.上线时注意事项:  
+		a.修改Application里初始化为线上环境
+		b.修改assets/adhmcfg目录下蓝莓渠道参数为正式参数  
+		c.修改广告位参数为正式广告位参数
+		d.注意修改AndroidManifest.xml中有要替换包名的地方、正式AppKey、productKey
