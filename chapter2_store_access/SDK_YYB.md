@@ -20,7 +20,7 @@
 	        UserLoginRet ret = new UserLoginRet();
 	        YSDKApi.getLoginRecord(ret);
 	        if (ret.flag == eFlag.Succ) {
-	            return ePlatform.getEnum(ret.platform);s
+	            return ePlatform.getEnum(ret.platform);
 	        }
 	        return ePlatform.None;
 	    }  
