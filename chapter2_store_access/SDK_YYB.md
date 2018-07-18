@@ -45,7 +45,8 @@
 		a.游戏的主Activity在AndroidManifest.xml中配置需要配置  
 		android:configChanges="orientation|screenSize|keyboardHidden"  
 		android:launchMode="singleTop"  
-		b.
+		b.游戏的主Activity一定要配置横竖屏  
+		c.APMidasPayProxyActivity中横竖屏的配置一定要和游戏主Activity的横竖屏配置一致
 		
 	
 
