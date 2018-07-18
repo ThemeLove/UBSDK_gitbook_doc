@@ -46,8 +46,13 @@
 		android:configChanges="orientation|screenSize|keyboardHidden"  
 		android:launchMode="singleTop"  
 		b.游戏的主Activity一定要配置横竖屏  
-		c.APMidasPayProxyActivity中横竖屏的配置一定要和游戏主Activity的横竖屏配置一致
-		
+		c.APMidasPayProxyActivity中横竖屏的配置一定要和游戏主Activity的横竖屏配置一致  
+		d.assets/ysdkconf.ini中手Q的appID必须和AndroidManifest.xml中com.tencent.tauth.AuthActivity中参数配置一致  
+		e.assets/ysdkconf.ini中微信的appID必须和AndroidManifest.xml中***.***.***.WXEntryActivity中参数配置一致  
+	11.游客模式 
+		a.YSDK 从 1.2.3 版本开始支持接入游客登录体系。通过该功能，应用开发者可以不使用任何账号直接登入游戏。  
+		b.该模块在接入时除了无需任何额外工作，只需要登录的时候调用对应的登录接口即可。  
+		c.目前游客模式仅提供给单机类游戏使用
 	
 
 
