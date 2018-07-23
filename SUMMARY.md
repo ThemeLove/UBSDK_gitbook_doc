@@ -1,6 +1,6 @@
 #summary
 
-* [一.UBSDK使用注意细节](chapter1_ubsdk_usage.md)
+* [一.UBSDK使用注意事项](chapter1_ubsdk_usage.md)
 * [二.UBSDK商店接入](chapter2_store_access.md)
 	* [SDK_应用宝](chapter2_store_access/SDK_YYB.md)
 	* [SDK_小米](chapter2_store_access/SDK_XiaoMi.md)
@@ -17,4 +17,6 @@
 	* [AD_OPPO](chapter3_ad_access/AD_OPPO.md)
 	* [AD_TapTap](chapter3_ad_access/AD_TapTap.md)
 	* [AD_小米](chapter3_ad_access/AD_XiaoMi2.md)
-	* [AD_应用宝](chapter3_ad_access/AD_YYB.md)
+	* [AD_应用宝](chapter3_ad_access/AD_YYB.md)  
+* [四.UBTool相关注意事项](chapter4_ubtool_usage.md) 
+	* [ReBuildApkTool以及母包处理注意事项](chapter4_ubtool_usage/ReBuildApkTool_usage.md)
