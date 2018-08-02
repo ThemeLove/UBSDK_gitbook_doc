@@ -3,8 +3,10 @@
 	2.包名要求：.mz结尾
 	
 
-
-
+##碰碰球参数：
+	appID:3194768
+	appKey:799dbf67e35841028df83495a1eb84e4
+	appSecret:7Oknf5UaAlUce0JPnk0dgChQW2jnRP8v
 
 
 ##魅族渠道接入注意事项 

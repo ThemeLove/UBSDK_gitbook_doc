@@ -4,9 +4,18 @@
 
 
 
-
-
-
+##测试参数
+	广告id:
+		bannerID:9b8fc2b321d5f29d23c6dab7cca7d3d6
+		interstitialID:4e1ce16814e24674114c658a943219c7
+		splashID:8849c9c62b47fcc0a3091a80e7115172
+		rewardVideoID：951d77defe9e82424974eae760b3f800
+##碰碰球参数
+	广告id:
+		bannerID:ac18823f12b4ca6c6f209f7aed75cdc9
+		interstitialID:bccda9553ca678d19c36558dc04d7936
+		splashID:8b7bcc89a946b6ef5bf5b7210d76c4b8
+		rewardVideoID：7edb857ef29adef00c0cd2d8a0b0bc60
 
 ##MeiZu渠道接入注意事项
 	1.广告sdk提供的ShenQiAd_Android_V2.1_20180725.jar里面有assets目录，需要把它解压出来然后放到  
