@@ -1,7 +1,8 @@
-##VIVO广告接入流程
+##VIVO广告接入流程   Version=2.4.1
 	1.注册VIVO账号  
 [开放平台](https://developer.vivo.com.cn/)  
-	2.VIVO广告联盟需要在VIVO游戏中心或者软件商店上架后才可以创建广告位
+	2.VIVO广告联盟需要在VIVO游戏中心或者软件商店上架后才可以创建广告位 
+	3.后台提交的时候，如果apk中集成了广告，要备注：已接入vivo广告，以及广告弹出策略
 	
 
 ##测试参数：  
@@ -44,7 +45,9 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/gdt_file_path"/>
         </provider>
-	4.显示闪屏广告时要做6.0版本以上权限兼容处理,详情见ADVIVOSplashActivity
+	4.显示闪屏广告时要做6.0版本以上权限兼容处理,详情见ADVIVOSplashActivity 
+	5.vivo_adsdk_v2.4.1.jar中包含assets目录，需要将其解压出来放到工程或配置的assets目录，再将jar包里assets目录删除。   
+	6.vivo广告会根据广告后台检验当前广告位参数所对应的包名是否对应，如果不对应则拉去广告失败。
 
 
 ##接入问题
