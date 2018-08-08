@@ -3,7 +3,9 @@
 [开放平台](https://developer.vivo.com.cn/)  
 	2.在管理后台创建游戏，注意包名以.vivo结尾，获取appID、cp-ID、appKey参数  
 	3.VIVO后台游戏截图要求竖图480 * 800,3-5张  
-	4.视频横屏：1920 * 1080，视频竖屏：1080 * 1920，要求时长为1-2分钟，不超过50M	
+	4.视频横屏：1920 * 1080，视频竖屏：1080 * 1920，要求时长为1-2分钟，不超过50M	  
+	5.上线邮件格式：上线之前要先发送上线邮件  
+		![vivo单机上线邮件格式](http://a4.qpic.cn/psb?/V14Qn4TC3OoSGG/O*wniZulknowWEkK6UHMF6qipsOXUR.a8gpWlN3JTjM!/b/dD8BAAAAAAAA&ek=1&kp=1&pt=0&tl=1&su=014951473&tm=1533693600&sce=0-12-12&rf=2-9)
 
 
 
