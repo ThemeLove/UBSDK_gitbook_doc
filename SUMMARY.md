@@ -20,4 +20,5 @@
 	* [AD_小米](chapter3_ad_access/AD_XiaoMi2.md)
 	* [AD_应用宝](chapter3_ad_access/AD_YYB.md)  
 * [四.UBTool相关注意事项](chapter4_ubtool_usage.md) 
-	* [ReBuildApkTool以及母包处理注意事项](chapter4_ubtool_usage/ReBuildApkTool_usage.md)
+	* [ReBuildApkTool以及母包处理注意事项](chapter4_ubtool_usage/ReBuildApkTool_usage.md) 
+	* [UBTool打包相关常用命令](chapter4_ubtool_usage/UBTool_Common_Command.md)
