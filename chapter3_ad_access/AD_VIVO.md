@@ -1,7 +1,7 @@
 ##VIVO广告接入流程   Version=2.4.1
 	1.注册VIVO账号[开放平台](https://developer.vivo.com.cn/)   
 	2.VIVO广告联盟需要在VIVO游戏中心或者软件商店上架后才可以创建广告位。 
-	3.广告位创建成功之后要邮件报备:邮件格式如下：
+	3.广告位创建成功之后要邮件报备:邮件格式如下：报备邮件：liyanqi@vivo.com 抄送danji@vivo.com
 ![vivo广告报备邮件](https://i.imgur.com/bpO4jkC.png) 
 	4.开发者后台提交的时候，如果apk中集成了广告，要备注：已接入vivo广告，以及广告弹出策略
 	
