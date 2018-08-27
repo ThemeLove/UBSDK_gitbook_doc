@@ -3,14 +3,17 @@
 	
 
 ##测试参数：  
-	2.广告id:
+	广告id:
 		bannerID:
 		interstitialID:
 		splashID:
 		nativeID：
 
 ##游戏数据：（碰碰球）	
-	
+	广告appID:1107718281
+	广告id:
+		bannerID:2090931808783334
+		interstitialID:5090830838085455
 
 
 ##应用宝广告接入注意事项
@@ -19,4 +22,6 @@
 	  
 	3.Banner 广告初始化必要权限android.permission.READ_PHONE_STATE，如果没有，初始化会失败， 
 	  23版本以上特别注意要动态权限处理
-	4.
+	4.AndroidManifest.xml中要替换包名： 
+	  android.support.v4.content.FileProvider的authorities属性的值为${applicationId}.fileprovider 
+	5.广点通广告id要和广告后台填写的包名对应
